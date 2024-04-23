@@ -1,6 +1,4 @@
-/*
-https://github.com/dankwaters/selector
-*/
+/* https://github.com/dankwaters/selector */
 
 function getHTMLByParse (html){
   let parseHTML = function(html){
