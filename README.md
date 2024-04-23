@@ -3,7 +3,7 @@ VanillaJs styled into jQuery $yntax.
 
 
 ## Deployment
-Include the file in the <head> of your html.
+Include the file in the < head > of your html.
 ```bash
 <script src="selector.js"></script>
 ```
