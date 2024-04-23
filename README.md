@@ -3,7 +3,7 @@ VanillaJs styled into jQuery $yntax.
 
 
 ## Deployment
-Include the file in the '<head>' of your html.
+Include the file in the < head > of your html.
 ```bash
 <script src="selector.js"></script>
 ```
@@ -15,21 +15,13 @@ Include the file in the '<head>' of your html.
 <script>
 const $body = $('body')[0];
 
-const $one = $(
-  `<div class="one">
+const $div = $(
+  `<div class="two">
     <p>hi</p><p>bi</p>
   </div>`
 );
 
-const $two = $(
-  `<div class="two">
-    <p>hi</p><p>bi</p>
-  </div>
-  <div></div>`
-);
-
-$body.append($one); //this works
-$body.append($two); //this doesn't work
+$body.append($div);
 </script>
 ```  
 
