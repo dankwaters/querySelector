@@ -1,6 +1,5 @@
-# $elect
-The $yntax was the only part that I liked from jQuery.
-A basic method.
+# $elector
+VanillaJs styled into jQuery $syntax.
 
 
 ## Deployment
