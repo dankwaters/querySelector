@@ -1,5 +1,5 @@
 # $elector
-VanillaJs styled into jQuery $yntax.
+VanillaJs styled as jQuery $yntax.
 
 
 ## Deployment
