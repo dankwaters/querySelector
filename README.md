@@ -1,5 +1,6 @@
 # $elector
-VanillaJs styled into jQuery $yntax.
+VanillaJ$ styled into jQuery syntax.  
+A basic C$$ $elector.
 
 
 ## Deployment
