@@ -3,7 +3,7 @@ VanillaJs styled into jQuery $yntax.
 
 
 ## Deployment
-Include the file in the <'head'> of your html.
+Include the file in the '<head>' of your html.
 ```bash
 <script src="selector.js"></script>
 ```
@@ -31,11 +31,11 @@ const $two = $(
 $body.append($one); //this works
 $body.append($two); //this doesn't work
 </script>
-```
+```  
 
 2. Literally VanillaJs
 * $('.hello') => document.getElementsByClassName('hello')
 * $('#hello') => document.getElementById('hello')
-* $('hello') => document.getElementsByTagName('hello')
+* $('hello') => document.getElementsByTagName('hello')  
 
 3. Everything else gets thrown into [querySelectorAll (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
