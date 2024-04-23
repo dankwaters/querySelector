@@ -39,4 +39,4 @@ $body.append($two); //this doesn't work
 * $('hello') => document.getElementsByTagName('hello')
 
 3. Everything else gets thrown into querySelectorAll
-[MDN querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+* [MDN querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
