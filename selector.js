@@ -1,4 +1,6 @@
-/*https://github.com/dankwaters/selector*/
+/*
+https://github.com/dankwaters/selector
+*/
 
 function getHTMLByParse (html){
   let parseHTML = function(html){
@@ -9,8 +11,7 @@ function getHTMLByParse (html){
   let renderList = function(html, cb) {
     let list = []; let item = '';
     let count = {'openTag':0, 'closeTag':0}
-    let arr = html.split('<');
-    arr.shift();
+    let arr = html.split('<').slice(1);
     arr.forEach((e)=>{
       item += '<' + e;
       e[0]!=='/' ? count.openTag++ : count.closeTag++;
