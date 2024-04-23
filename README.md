@@ -1,6 +1,6 @@
 # $elector
-VanillaJ$ styled into jQuery syntax.  
-A basic C$$ $elector.
+VanillaJS styled into jQuery syntax.  
+A basic CSS selector.  
 
 
 ## Deployment
@@ -17,7 +17,7 @@ Include the file in the < head > of your html.
 const $body = $('body')[0];
 
 const $div = $(
-  `<div class="two">
+  `<div class="foo">
     <p>hi</p><p>bi</p>
   </div>`
 );
