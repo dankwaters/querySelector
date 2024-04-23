@@ -11,7 +11,7 @@ Include the file in the < head > of your html.
 
 
 ## Usage/Examples
-1. Elements must be wrapped.
+Elements must be wrapped.
 ```javascript
 <script>
 const $body = $('body')[0];
@@ -25,10 +25,3 @@ const $div = $(
 $body.append($div);
 </script>
 ```  
-
-2. Literally VanillaJs
-* $('.hello') => document.getElementsByClassName('hello')
-* $('#hello') => document.getElementById('hello')
-* $('hello') => document.getElementsByTagName('hello')  
-
-3. Everything else gets thrown into [querySelectorAll (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
