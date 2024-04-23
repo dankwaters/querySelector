@@ -5,7 +5,7 @@ VanillaJs styled into jQuery $yntax.
 ## Deployment
 Include the file in the <head> of your html.
 ```bash
-<script src="select.js"></script>
+<script src="selector.js"></script>
 ```
 
 
